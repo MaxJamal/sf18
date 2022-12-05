@@ -9,7 +9,7 @@ class ConvertionException(Exception):
 # def heandle_voice_messages(message: telebot.types.Message):
 #     bot.send_message(message.chat.id, "А у тебя красивый голос")
 
-class CryptoConverter:
+class FiatConverter:
     @staticmethod
     def get_price(quote: str, base: str, amount: str):
 
